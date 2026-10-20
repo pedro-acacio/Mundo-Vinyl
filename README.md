@@ -1,26 +1,26 @@
 # Mundo Vinyl — Landing Page
 
-Landing page em React para a Mundo Vinyl, loja de discos de vinil no Jardim São Luiz, Ribeirão Preto - SP. Construída em cima da mesma base da landing da Hifive Discos, com paleta preto/branco + azul cobalto extraída da logo, e dados reais confirmados pelo cliente (endereço, WhatsApp, e-mail).
+React landing page for Mundo Vinyl, a vinyl record store in Jardim São Luiz, Ribeirão Preto - SP, Brazil. Built on the same base as the Hifive Discos landing page, with a black/white + cobalt blue palette taken from the logo, and real details confirmed by the client (address, WhatsApp, email).
 
-## Tecnologias
+## Technologies
 
 - React 18 + Vite
 - Tailwind CSS
-- Ícones: [lucide-react](https://lucide.dev/)
+- Icons: [lucide-react](https://lucide.dev/)
 
 ## Deploy
 
 https://mundo-vinyl.vercel.app
 
-## Como rodar localmente
+## Running locally
 
 ```bash
 npm install
-npm run dev       # ambiente de desenvolvimento
-npm run build     # build de produção (gera pasta dist/)
-npm run preview   # serve o build de produção localmente
+npm run dev       # development environment
+npm run build     # production build (generates the dist/ folder)
+npm run preview   # serves the production build locally
 ```
 
-## Observação
+## Note
 
-O horário de funcionamento (`HOURS` em `src/App.jsx`) estava com um valor genérico no momento do desenvolvimento e precisa ser conferido com o cliente antes de qualquer nova publicação.
+The opening hours (`HOURS` in `src/App.jsx`) had a generic value at the time of development and need to be checked with the client before any new release.
